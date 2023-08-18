@@ -1,25 +1,3 @@
-ужно добавить дополнительные переменные в таблицы и создать отдельные таблицы с индификаторами даже если они уже есть в других. а именно аблица "numbers":
-
-    id: Уникальный идентификатор (INTEGER).
-    name: Имя человека (VARCHAR, до 30 символов).
-    number: Номер телефона (VARCHAR, до 15 символов).
-
-Таблица "sources":
-
-    id: Уникальный идентификатор (INTEGER).
-    source: Идентификатор источника (VARCHAR, до 30 символов).
-    name: Имя источника (VARCHAR, до 15 символов).
-
-Таблица "archive":
-
-    origin: Исходный текст сообщения (TEXT).
-    origin_lower: Преобразованный в нижний регистр текст сообщения (TEXT).
-    send: Время отправки сообщения (TIMESTAMP).
-ChatGPT
-
-
-
-
 {
     "name": "Media Search bot",
     "description": "When you going to send file on telegram channel/group this bot will save that in database, So you can search that easily in inline mode",
